@@ -20,5 +20,3 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path("", include("hello.urls")),
 ]
-
-urlpatterns += staticfiles_urlpatterns()
